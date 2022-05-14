@@ -1,0 +1,39 @@
+/* eslint-disable @next/next/no-img-element */
+import { FunctionComponent } from 'react';
+import NftItem from '../NftItem';
+
+const NftList: FunctionComponent = () => {
+  return (
+    <div className='mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none '>
+      <div className='flex flex-col rounded-lg shadow-2xl overflow-hidden hover:scale-90 transition ease-in-out delay-150  '>
+        <NftItem />
+      </div>
+      <div className='flex flex-col rounded-lg shadow-2xl overflow-hidden hover:scale-90 transition ease-in-out delay-150  '>
+        <NftItem />
+      </div>
+      <div className='flex flex-col rounded-lg shadow-2xl overflow-hidden hover:scale-90 transition ease-in-out delay-150  '>
+        <NftItem />
+      </div>
+      <div className='flex flex-col rounded-lg shadow-2xl overflow-hidden hover:scale-90 transition ease-in-out delay-150  '>
+        <NftItem />
+      </div>
+      <div className='flex flex-col rounded-lg shadow-2xl overflow-hidden hover:scale-90 transition ease-in-out delay-150  '>
+        <NftItem />
+      </div>
+      <div className='flex flex-col rounded-lg shadow-2xl overflow-hidden hover:scale-90 transition ease-in-out delay-150  '>
+        <NftItem />
+      </div>
+      <div className='flex flex-col rounded-lg shadow-2xl overflow-hidden hover:scale-90 transition ease-in-out delay-150  '>
+        <NftItem />
+      </div>
+      <div className='flex flex-col rounded-lg shadow-2xl overflow-hidden hover:scale-90 transition ease-in-out delay-150  '>
+        <NftItem />
+      </div>
+      <div className='flex flex-col rounded-lg shadow-2xl overflow-hidden hover:scale-90 transition ease-in-out delay-150  '>
+        <NftItem />
+      </div>
+    </div>
+  );
+};
+
+export default NftList;
