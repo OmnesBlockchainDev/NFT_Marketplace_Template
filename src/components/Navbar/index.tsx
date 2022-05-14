@@ -134,6 +134,13 @@ export default function Navbar() {
                     </Menu.Items>
                   </Transition>
                 </Menu>
+
+                <button
+                  style={{ marginLeft: '20px' }}
+                  className='bg-transparent hover:bg-blue-500 text-white font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded'
+                >
+                  Connect Wallet
+                </button>
               </div>
             </div>
           </div>
