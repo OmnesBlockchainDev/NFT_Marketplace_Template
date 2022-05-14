@@ -1,5 +1,6 @@
 import { FunctionComponent, ReactNode } from 'react';
 import { Navbar } from '../';
+import { Footer } from '../';
 
 interface BaseProps {
   children: ReactNode;
@@ -15,6 +16,7 @@ const BaseLayout: FunctionComponent<BaseProps> = ({ children }) => {
           {children}
         </div>
       </div>
+      <Footer />
     </>
   );
 };
